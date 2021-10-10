@@ -12,7 +12,8 @@
     "express",
     "jwt",
     "authentication",
-    "mongodb"
+    "mongodb",
+    "heroku"
   ],
   "author": "bezkoder",
   "license": "ISC",
@@ -23,5 +24,8 @@
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.1"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
